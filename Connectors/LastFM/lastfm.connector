@@ -1,0 +1,10 @@
+{
+	"title":"Last.FM Connector",
+	"action":"Connect to a Last.FM account",
+	"desc":"Collect and sync data from my Last.FM account.",
+	"run":"node init.js",
+	"status":"stable",
+	"handle":"lastfm",
+	"mongoCollections": ["scrobbles"],
+	"provides":["scrobbles/lastfm"]
+}
